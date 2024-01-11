@@ -4,37 +4,3 @@
     box-sizing: border-box;
     font-family: 'Segoe UI', sans-serif;
 }
-
-.card{
-    width: 80%;
-    display: flex;
-    flex-direction: row;
-    -moz-box-shadow: 4px 5px 4px 5px rgba(94,13,163,0.62);
-    -webkit-box-shadow: 4px 5px 4px 5px rgba(94,13,163,0.62);
-    box-shadow: 4px 5px 4px 5px rgba(94,13,163,0.62);
-    justify-content: space-between;
-}
-.card_left{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding-left: 10px;
-
-}
-
-.card_left > span {
-    font-weight: bold;
-}
-
-.card_left > a {
-    margin-top: 15px;
-    font-size: 25px;
-    text-decoration: none;
-    font-weight: bold;
-    color: black;
-}
-
-.card_left > p {
-    color: gray;
-}
-
